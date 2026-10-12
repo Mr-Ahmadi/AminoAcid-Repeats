@@ -1,0 +1,1235 @@
+{
+ "HTT": {
+  "lcr": [
+   {
+    "start": 10,
+    "end": 85,
+    "sequence": "FESLKSFQQQQQQQQQQQQQQQQQQQQQPPPPPPPPPPPQLPQPPPQAQPLLPQPQPPPPPPPPPPGPAVAEEPL",
+    "entropy": 2.2193774117567746
+   },
+   {
+    "start": 290,
+    "end": 302,
+    "sequence": "LLNVLLGLLVPV",
+    "entropy": 1.896240625180289
+   },
+   {
+    "start": 307,
+    "end": 327,
+    "sequence": "TLLILGVLLTLRYLVPLLQQ",
+    "entropy": 2.595461844238322
+   },
+   {
+    "start": 408,
+    "end": 422,
+    "sequence": "EESGGRSRSGSIVE",
+    "entropy": 2.41379956460568
+   },
+   {
+    "start": 450,
+    "end": 466,
+    "sequence": "LEDDSESRSDVSSSAL",
+    "entropy": 2.48345859334435
+   },
+   {
+    "start": 530,
+    "end": 545,
+    "sequence": "SHSSSQVSAVPSDPA",
+    "entropy": 2.4729055953200563
+   },
+   {
+    "start": 1166,
+    "end": 1180,
+    "sequence": "AALPSLTNPPSLSP",
+    "entropy": 2.41379956460568
+   },
+   {
+    "start": 1441,
+    "end": 1460,
+    "sequence": "VQLQKQVLDLLAQLVQLRV",
+    "entropy": 2.399537225087599
+   },
+   {
+    "start": 1831,
+    "end": 1843,
+    "sequence": "LVLLWCQILLLV",
+    "entropy": 2.1258145836939115
+   },
+   {
+    "start": 2068,
+    "end": 2083,
+    "sequence": "DSLSPSPPVSSHPLD",
+    "entropy": 2.332914563979398
+   },
+   {
+    "start": 2482,
+    "end": 2496,
+    "sequence": "EQEESPPEEDTERT",
+    "entropy": 2.41379956460568
+   },
+   {
+    "start": 2628,
+    "end": 2660,
+    "sequence": "TPLREEEWDEEEEEEADAPAPSSPPTSPVNSR",
+    "entropy": 3.0376878900165245
+   },
+   {
+    "start": 2877,
+    "end": 2896,
+    "sequence": "ALRGLERLLLSEQLSRLDA",
+    "entropy": 2.647592147308496
+   }
+  ],
+  "tandem": [
+   {
+    "start": 17,
+    "end": 38,
+    "period": 1,
+    "unit": "Q",
+    "identity": 1.0,
+    "sequence": "QQQQQQQQQQQQQQQQQQQQQ"
+   },
+   {
+    "start": 38,
+    "end": 49,
+    "period": 1,
+    "unit": "P",
+    "identity": 1.0,
+    "sequence": "PPPPPPPPPPP"
+   },
+   {
+    "start": 62,
+    "end": 76,
+    "period": 7,
+    "unit": "PQPQPPP",
+    "identity": 0.8571428571428571,
+    "sequence": "PQPQPPPPPPPPPP"
+   },
+   {
+    "start": 2648,
+    "end": 2656,
+    "period": 4,
+    "unit": "PSSP",
+    "identity": 0.875,
+    "sequence": "PSSPPTSP"
+   }
+  ],
+  "fourier_verified": [],
+  "fourier_regions": [],
+  "self_alignment": [
+   {
+    "score": 53.0,
+    "start1": 150,
+    "end1": 238,
+    "start2": 1238,
+    "end2": 1326,
+    "aligned1": "LNKVIKALMDSNLPRLQLELYKEIKK-NGAPRSLRAALWRFAELAHLVRPQKCRPYLVNLL-PCLTRTSKRPEESVQETLAAAVPKIMAS",
+    "aligned2": "LHDVLKA-THANY-KVTLDLQNSTEKFGGFLRSALDVLSQILELATLQDIGKCVEEILGYLKSCFSREPMMATVCVQQLLKTLFGTNLAS",
+    "zscore": 1.0598806551202278,
+    "identity": 0.28888888888888886,
+    "kind": "dispersed"
+   },
+   {
+    "score": 50.0,
+    "start1": 1972,
+    "end1": 2068,
+    "start2": 2722,
+    "end2": 2815,
+    "aligned1": "TLQCLEGIHLSQSGAVLTLYVDRLLCTPFRVLARMVDILACRRVEMLLAANLQSSMAQLPMEELNRIQEYLQSSGLAQRHQRLYSLLDRFRLSTMQ",
+    "aligned2": "TLTELRRVHPSED-EILAQYLVPATCKAAAVLG-M-DKAVAEPVSRLLESTLRSSHLPSRVGALHGVLYVLECDLLDDTAKQLIPVISDYLLSNLK",
+    "zscore": 0.43149291493036973,
+    "identity": 0.25,
+    "kind": "dispersed"
+   },
+   {
+    "score": 45.0,
+    "start1": 1718,
+    "end1": 1771,
+    "start2": 2522,
+    "end2": 2574,
+    "aligned1": "STSTLEEHSEGKQIKNLPEETFSRFLLQLVGILLEDIVTKQLKVEMSEQQHTF",
+    "aligned2": "AVSCLEQQPRNKPLKAL-DTRFGRKLSIIRGIVEQEIQAMVSKRENIATHHLY",
+    "zscore": -0.6158199853860604,
+    "identity": 0.2830188679245283,
+    "kind": "dispersed"
+   },
+   {
+    "score": 44.0,
+    "start1": 205,
+    "end1": 269,
+    "start2": 803,
+    "end2": 866,
+    "aligned1": "LVNLLPCLTRTSKRPEESVQETLA-AAVPKIMASFGNFANDNEIKVLLKAFIANLKSSSPTIRRT",
+    "aligned2": "LADCIPLLRKTLK-DESSVTCKLACTAVRNCVMSLCS-SSYSELGLQLIIDVLTLRNSSYWLVRT",
+    "zscore": -0.8252825654493465,
+    "identity": 0.3076923076923077,
+    "kind": "dispersed"
+   },
+   {
+    "score": 44.0,
+    "start1": 550,
+    "end1": 615,
+    "start2": 591,
+    "end2": 655,
+    "aligned1": "GTQASSPISDSSQTTTEGPDSAVTPSDSSEIVLDGTDNQYLGLQIGQPQDEDEEATGILPDEASE",
+    "aligned2": "GLQIGQPQDEDEEATGILPDEASEAFRNSSMALQQAHLLKNMSHCRQPSDSSVDKF-VLRDEATE",
+    "zscore": -0.8252825654493465,
+    "identity": 0.26153846153846155,
+    "kind": "tandem"
+   },
+   {
+    "score": 44.0,
+    "start1": 1519,
+    "end1": 1539,
+    "start2": 2854,
+    "end2": 2873,
+    "aligned1": "IIQLCDGIMASGRKAVTHAI",
+    "aligned2": "IIQMC-GVMLSGSEESTPSI",
+    "zscore": -0.8252825654493465,
+    "identity": 0.5,
+    "kind": "dispersed"
+   }
+  ],
+  "words": [
+   {
+    "word": "QQQQQQQ",
+    "occurrences": [
+     17,
+     24,
+     31
+    ]
+   },
+   {
+    "word": "PPPPP",
+    "occurrences": [
+     38,
+     43,
+     66,
+     71
+    ]
+   },
+   {
+    "word": "SLSP",
+    "occurrences": [
+     1176,
+     2069,
+     2581
+    ]
+   },
+   {
+    "word": "SDSS",
+    "occurrences": [
+     558,
+     575,
+     639
+    ]
+   },
+   {
+    "word": "LGVL",
+    "occurrences": [
+     311,
+     1630,
+     2471
+    ]
+   },
+   {
+    "word": "EEEA",
+    "occurrences": [
+     446,
+     1111,
+     2640
+    ]
+   }
+  ]
+ },
+ "AR": {
+  "lcr": [
+   {
+    "start": 41,
+    "end": 99,
+    "sequence": "PEAASAAPPGASLLLLQQQQQQQQQQQQQQQQQQQQQQQETSPRQQQQQQGEDGSPQA",
+    "entropy": 2.412534299414706
+   },
+   {
+    "start": 149,
+    "end": 162,
+    "sequence": "PAPPDEDDSAAPS",
+    "entropy": 2.199687794731328
+   },
+   {
+    "start": 186,
+    "end": 217,
+    "sequence": "EASTMQLLQQQQQEAVSEGSSSGRAREASGA",
+    "entropy": 3.038580891507709
+   },
+   {
+    "start": 318,
+    "end": 341,
+    "sequence": "GLEGESLGCSGSAAAGSSGTLEL",
+    "entropy": 2.5831623698356787
+   },
+   {
+    "start": 367,
+    "end": 389,
+    "sequence": "PLALAGPPPPPPPPHPHARIKL",
+    "entropy": 2.4262927116736352
+   },
+   {
+    "start": 408,
+    "end": 436,
+    "sequence": "GDLASLHGAGAAGPGSGSPSAAASSSWH",
+    "entropy": 2.6354712108742686
+   },
+   {
+    "start": 441,
+    "end": 483,
+    "sequence": "EEGQLYGPCGGGGGGGGGGGGGGGGGGGGGGGEAGAVAPYGY",
+    "entropy": 1.9483501593286636
+   },
+   {
+    "start": 641,
+    "end": 661,
+    "sequence": "EEGEASSTTSPTEETTQKLT",
+    "entropy": 2.7282129458410016
+   }
+  ],
+  "tandem": [
+   {
+    "start": 57,
+    "end": 80,
+    "period": 1,
+    "unit": "Q",
+    "identity": 1.0,
+    "sequence": "QQQQQQQQQQQQQQQQQQQQQQQ"
+   },
+   {
+    "start": 373,
+    "end": 383,
+    "period": 1,
+    "unit": "P",
+    "identity": 0.9,
+    "sequence": "PPPPPPPPHP"
+   },
+   {
+    "start": 450,
+    "end": 473,
+    "period": 1,
+    "unit": "G",
+    "identity": 1.0,
+    "sequence": "GGGGGGGGGGGGGGGGGGGGGGG"
+   }
+  ],
+  "fourier_verified": [],
+  "fourier_regions": [],
+  "self_alignment": [],
+  "words": [
+   {
+    "word": "QQQQQ",
+    "occurrences": [
+     57,
+     62,
+     67,
+     72,
+     85,
+     194
+    ]
+   },
+   {
+    "word": "GGGGGGG",
+    "occurrences": [
+     450,
+     457,
+     464
+    ]
+   }
+  ]
+ },
+ "COL1A1": {
+  "lcr": [
+   {
+    "start": 1,
+    "end": 34,
+    "sequence": "FSFVDLRLLLLLAATALLTHGQEEGQVEGQDED",
+    "entropy": 3.316528967581063
+   },
+   {
+    "start": 111,
+    "end": 161,
+    "sequence": "GPKGDTGPRGPRGPAGPPGRDGIPGQPGLPGPPGPPGPPGPPGLGGNFAP",
+    "entropy": 2.5378480731871074
+   },
+   {
+    "start": 172,
+    "end": 257,
+    "sequence": "GGISVPGPMGPSGPRGLPGPPGAPGPQGFQGPPGEPGEPGASGPMGPRGPPGPPGKNGDDGEAGKPGRPGERGPPGPQGARGLPG",
+    "entropy": 2.8553054175279198
+   },
+   {
+    "start": 271,
+    "end": 296,
+    "sequence": "GLDGAKGDAGPAGPKGEPGSPGENG",
+    "entropy": 2.7524876891689534
+   },
+   {
+    "start": 301,
+    "end": 353,
+    "sequence": "GPRGLPGERGRPGAPGPAGARGNDGATGAAGPPGPTGPAGPPGFPGAVGAKG",
+    "entropy": 2.6887565441488555
+   },
+   {
+    "start": 363,
+    "end": 437,
+    "sequence": "EGPQGVRGEPGPPGPAGAAGPAGNPGADGQPGAKGANGAPGIAGAPGFPGARGPSGPQGPGGPPGPKGNSGEPG",
+    "entropy": 2.7555548114515083
+   },
+   {
+    "start": 447,
+    "end": 500,
+    "sequence": "KGEPGPVGVQGPPGPAGEEGKRGARGEPGPTGLPGPPGERGGPGSRGFPGADG",
+    "entropy": 2.858209119833345
+   },
+   {
+    "start": 511,
+    "end": 527,
+    "sequence": "GSPGPAGPKGSPGEAG",
+    "entropy": 2.2806390622295662
+   },
+   {
+    "start": 537,
+    "end": 578,
+    "sequence": "KGLTGSPGSPGPDGKTGPPGPAGQDGRPGPPGPPGARGQAG",
+    "entropy": 2.7206836091063717
+   },
+   {
+    "start": 580,
+    "end": 638,
+    "sequence": "GFPGPKGAAGEPGKAGERGVPGPPGAVGPAGKDGEAGAQGPPGPAGPAGERGEQGPAG",
+    "entropy": 2.6676030497504164
+   },
+   {
+    "start": 639,
+    "end": 662,
+    "sequence": "PGFQGLPGPAGPPGEAGKPGEQG",
+    "entropy": 2.5448760863036677
+   },
+   {
+    "start": 684,
+    "end": 728,
+    "sequence": "RGVQGPPGPAGPRGANGAPGNDGAKGDAGAPGAPGSQGAPGLQG",
+    "entropy": 2.7921987450852237
+   },
+   {
+    "start": 762,
+    "end": 861,
+    "sequence": "RGLTGPIGPPGPAGAPGDKGESGPSGPAGPTGARGAPGDRGEPGPPGPAGFAGPPGADGQPGAKGEPGDAGAKGDAGPPGPAGPAGPPGPIGNVGAPGA",
+    "entropy": 2.806773653775324
+   },
+   {
+    "start": 865,
+    "end": 957,
+    "sequence": "GSAGPPGATGFPGAAGRVGPPGPSGNAGPPGPPGPAGKEGGKGPRGETGPAGRPGEVGPPGPPGPAGEKGSPGADGPAGAPGTPGPQGIAGQ",
+    "entropy": 2.783581520898149
+   },
+   {
+    "start": 990,
+    "end": 1013,
+    "sequence": "SGERGPPGPMGPPGLAGPPGESG",
+    "entropy": 2.451758284126438
+   },
+   {
+    "start": 1036,
+    "end": 1064,
+    "sequence": "GETGPAGPPGAPGAPGAPGPVGPAGKSG",
+    "entropy": 2.3491791569393743
+   },
+   {
+    "start": 1065,
+    "end": 1094,
+    "sequence": "RGETGPAGPAGPVGPVGARGPAGPQGPRG",
+    "entropy": 2.5260619294227333
+   },
+   {
+    "start": 1111,
+    "end": 1200,
+    "sequence": "GFSGLQGPPGPPGSPGEQGPSGASGPAGPRGPPGSAGAPGKDGLNGLPGPIGPPGPRGRTGDAGPVGPPGPPGPPGPPGPPSAGFDFSF",
+    "entropy": 2.8531062136490144
+   },
+   {
+    "start": 1216,
+    "end": 1228,
+    "sequence": "RADDANVVRDRD",
+    "entropy": 2.188721875540867
+   }
+  ],
+  "tandem": [
+   {
+    "start": 21,
+    "end": 33,
+    "period": 4,
+    "unit": "GQEE",
+    "identity": 0.8333333333333334,
+    "sequence": "GQEEGQVEGQDE"
+   },
+   {
+    "start": 117,
+    "end": 128,
+    "period": 3,
+    "unit": "GPR",
+    "identity": 0.9090909090909091,
+    "sequence": "GPRGPRGPAGP"
+   },
+   {
+    "start": 137,
+    "end": 154,
+    "period": 3,
+    "unit": "PGP",
+    "identity": 0.9411764705882353,
+    "sequence": "PGLPGPPGPPGPPGPPG"
+   },
+   {
+    "start": 178,
+    "end": 186,
+    "period": 3,
+    "unit": "GPM",
+    "identity": 0.875,
+    "sequence": "GPMGPSGP"
+   },
+   {
+    "start": 187,
+    "end": 197,
+    "period": 3,
+    "unit": "GLP",
+    "identity": 0.8,
+    "sequence": "GLPGPPGAPG"
+   },
+   {
+    "start": 204,
+    "end": 212,
+    "period": 3,
+    "unit": "PGE",
+    "identity": 1.0,
+    "sequence": "PGEPGEPG"
+   },
+   {
+    "start": 214,
+    "end": 222,
+    "period": 3,
+    "unit": "GPM",
+    "identity": 0.875,
+    "sequence": "GPMGPRGP"
+   },
+   {
+    "start": 325,
+    "end": 344,
+    "period": 9,
+    "unit": "GATGAAGPP",
+    "identity": 0.8947368421052632,
+    "sequence": "GATGAAGPPGPTGPAGPPG"
+   },
+   {
+    "start": 376,
+    "end": 386,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 0.9,
+    "sequence": "GPAGAAGPAG"
+   },
+   {
+    "start": 394,
+    "end": 402,
+    "period": 3,
+    "unit": "GAK",
+    "identity": 0.875,
+    "sequence": "GAKGANGA"
+   },
+   {
+    "start": 415,
+    "end": 426,
+    "period": 3,
+    "unit": "GPS",
+    "identity": 0.8181818181818182,
+    "sequence": "GPSGPQGPGGP"
+   },
+   {
+    "start": 520,
+    "end": 536,
+    "period": 6,
+    "unit": "GSPGEA",
+    "identity": 0.875,
+    "sequence": "GSPGEAGRPGEAGLPG"
+   },
+   {
+    "start": 564,
+    "end": 572,
+    "period": 3,
+    "unit": "PGP",
+    "identity": 1.0,
+    "sequence": "PGPPGPPG"
+   },
+   {
+    "start": 648,
+    "end": 660,
+    "period": 6,
+    "unit": "AGPPGE",
+    "identity": 0.9166666666666666,
+    "sequence": "AGPPGEAGKPGE"
+   },
+   {
+    "start": 688,
+    "end": 696,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 0.875,
+    "sequence": "GPPGPAGP"
+   },
+   {
+    "start": 715,
+    "end": 728,
+    "period": 6,
+    "unit": "GAPGSQ",
+    "identity": 0.9230769230769231,
+    "sequence": "GAPGSQGAPGLQG"
+   },
+   {
+    "start": 766,
+    "end": 774,
+    "period": 3,
+    "unit": "GPI",
+    "identity": 0.875,
+    "sequence": "GPIGPPGP"
+   },
+   {
+    "start": 783,
+    "end": 792,
+    "period": 3,
+    "unit": "SGP",
+    "identity": 0.8888888888888888,
+    "sequence": "SGPSGPAGP"
+   },
+   {
+    "start": 835,
+    "end": 854,
+    "period": 9,
+    "unit": "GDAGPPGPA",
+    "identity": 0.8947368421052632,
+    "sequence": "GDAGPPGPAGPAGPPGPIG"
+   },
+   {
+    "start": 856,
+    "end": 864,
+    "period": 3,
+    "unit": "GAP",
+    "identity": 0.875,
+    "sequence": "GAPGAKGA"
+   },
+   {
+    "start": 883,
+    "end": 902,
+    "period": 9,
+    "unit": "GPPGPSGNA",
+    "identity": 0.8947368421052632,
+    "sequence": "GPPGPSGNAGPPGPPGPAG"
+   },
+   {
+    "start": 922,
+    "end": 932,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 0.9,
+    "sequence": "GPPGPPGPAG"
+   },
+   {
+    "start": 994,
+    "end": 1004,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 0.9,
+    "sequence": "GPPGPMGPPG"
+   },
+   {
+    "start": 1042,
+    "end": 1055,
+    "period": 6,
+    "unit": "GPPGAP",
+    "identity": 0.9230769230769231,
+    "sequence": "GPPGAPGAPGAPG"
+   },
+   {
+    "start": 1069,
+    "end": 1080,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 0.9090909090909091,
+    "sequence": "GPAGPAGPVGP"
+   },
+   {
+    "start": 1084,
+    "end": 1092,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 0.875,
+    "sequence": "GPAGPQGP"
+   },
+   {
+    "start": 1117,
+    "end": 1127,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 0.9,
+    "sequence": "GPPGPPGSPG"
+   },
+   {
+    "start": 1135,
+    "end": 1143,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 0.875,
+    "sequence": "GPAGPRGP"
+   },
+   {
+    "start": 1159,
+    "end": 1167,
+    "period": 3,
+    "unit": "GPI",
+    "identity": 0.875,
+    "sequence": "GPIGPPGP"
+   },
+   {
+    "start": 1174,
+    "end": 1192,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 0.9444444444444444,
+    "sequence": "GPVGPPGPPGPPGPPGPP"
+   }
+  ],
+  "fourier_verified": [
+   {
+    "start": 117,
+    "end": 125,
+    "period": 3,
+    "unit": "GPR",
+    "identity": 1.0,
+    "sequence": "GPRGPRGP"
+   },
+   {
+    "start": 140,
+    "end": 154,
+    "period": 3,
+    "unit": "PGP",
+    "identity": 1.0,
+    "sequence": "PGPPGPPGPPGPPG"
+   },
+   {
+    "start": 204,
+    "end": 212,
+    "period": 3,
+    "unit": "PGE",
+    "identity": 1.0,
+    "sequence": "PGEPGEPG"
+   },
+   {
+    "start": 220,
+    "end": 227,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 1.0,
+    "sequence": "GPPGPPG"
+   },
+   {
+    "start": 541,
+    "end": 548,
+    "period": 3,
+    "unit": "GSP",
+    "identity": 1.0,
+    "sequence": "GSPGSPG"
+   },
+   {
+    "start": 564,
+    "end": 572,
+    "period": 3,
+    "unit": "PGP",
+    "identity": 1.0,
+    "sequence": "PGPPGPPG"
+   },
+   {
+    "start": 622,
+    "end": 629,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 1.0,
+    "sequence": "GPAGPAG"
+   },
+   {
+    "start": 712,
+    "end": 719,
+    "period": 3,
+    "unit": "GAP",
+    "identity": 1.0,
+    "sequence": "GAPGAPG"
+   },
+   {
+    "start": 841,
+    "end": 849,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 1.0,
+    "sequence": "GPAGPAGP"
+   },
+   {
+    "start": 892,
+    "end": 900,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 1.0,
+    "sequence": "GPPGPPGP"
+   },
+   {
+    "start": 922,
+    "end": 930,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 1.0,
+    "sequence": "GPPGPPGP"
+   },
+   {
+    "start": 1044,
+    "end": 1055,
+    "period": 3,
+    "unit": "PGA",
+    "identity": 1.0,
+    "sequence": "PGAPGAPGAPG"
+   },
+   {
+    "start": 1069,
+    "end": 1077,
+    "period": 3,
+    "unit": "GPA",
+    "identity": 1.0,
+    "sequence": "GPAGPAGP"
+   },
+   {
+    "start": 1177,
+    "end": 1192,
+    "period": 3,
+    "unit": "GPP",
+    "identity": 1.0,
+    "sequence": "GPPGPPGPPGPPGPP"
+   }
+  ],
+  "fourier_regions": [
+   {
+    "start": 118,
+    "end": 151,
+    "period": 3,
+    "mean_score": 0.32731648983112643
+   },
+   {
+    "start": 186,
+    "end": 1183,
+    "period": 3,
+    "mean_score": 0.3267302105217183
+   }
+  ],
+  "self_alignment": [
+   {
+    "score": 87.0,
+    "start1": 732,
+    "end1": 761,
+    "start2": 957,
+    "end2": 986,
+    "aligned1": "RGAAGLPGPKGDRGDAGPKGADGSPGKDG",
+    "aligned2": "RGVVGLPGQRGERGFPGLPGPSGEPGKQG",
+    "zscore": 7.37953658739496,
+    "identity": 0.5517241379310345,
+    "kind": "dispersed"
+   },
+   {
+    "score": 65.0,
+    "start1": 958,
+    "end1": 1031,
+    "start2": 961,
+    "end2": 1034,
+    "aligned1": "GVVGLPGQRGERGFPGLPGPSGEPGKQGPSGASGERGPPGPMGPPGLAGPPGESGREGAPGAEGSPGRDGSPG",
+    "aligned2": "GLPGQRGERGFPGLPGPSGEPGKQGPSGASGERGPPGPMGPPGLAGPPGESGREGAPGAEGSPGRDGSPGAKG",
+    "zscore": 4.015471006734183,
+    "identity": 0.4246575342465753,
+    "kind": "tandem"
+   },
+   {
+    "score": 57.0,
+    "start1": 667,
+    "end1": 683,
+    "start2": 958,
+    "end2": 974,
+    "aligned1": "GAPGPSGARGERGFPG",
+    "aligned2": "GVVGLPGQRGERGFPG",
+    "zscore": 2.792174431948445,
+    "identity": 0.6875,
+    "kind": "dispersed"
+   },
+   {
+    "score": 55.0,
+    "start1": 728,
+    "end1": 752,
+    "start2": 737,
+    "end2": 761,
+    "aligned1": "MPGERGAAGLPGPKGDRGDAGPKG",
+    "aligned2": "LPGPKGDRGDAGPKGADGSPGKDG",
+    "zscore": 2.486350288252011,
+    "identity": 0.4583333333333333,
+    "kind": "tandem"
+   },
+   {
+    "score": 53.0,
+    "start1": 662,
+    "end1": 683,
+    "start2": 728,
+    "end2": 749,
+    "aligned1": "VPGDLGAPGPSGARGERGFPG",
+    "aligned2": "MPGERGAAGLPGPKGDRGDAG",
+    "zscore": 2.1805261445555764,
+    "identity": 0.47619047619047616,
+    "kind": "dispersed"
+   },
+   {
+    "score": 53.0,
+    "start1": 748,
+    "end1": 761,
+    "start2": 1015,
+    "end2": 1028,
+    "aligned1": "GPKGADGSPGKDG",
+    "aligned2": "GAPGAEGSPGRDG",
+    "zscore": 2.1805261445555764,
+    "identity": 0.6923076923076923,
+    "kind": "dispersed"
+   }
+  ],
+  "words": [
+   {
+    "word": "GPPG",
+    "occurrences": [
+     126,
+     141,
+     147,
+     190,
+     202,
+     220,
+     244,
+     331,
+     340,
+     373,
+     424,
+     457,
+     481,
+     553,
+     565,
+     601,
+     619,
+     649,
+     688,
+     769,
+     805,
+     814,
+     838,
+     847,
+     868,
+     883,
+     892,
+     922,
+     994,
+     1000,
+     1006,
+     1042,
+     1117,
+     1141,
+     1162,
+     1177,
+     1183
+    ]
+   },
+   {
+    "word": "GPAG",
+    "occurrences": [
+     280,
+     316,
+     382,
+     505,
+     514,
+     607,
+     634,
+     787,
+     898,
+     913,
+     928,
+     940,
+     1057,
+     1069,
+     1084,
+     1135
+    ]
+   },
+   {
+    "word": "GAPG",
+    "occurrences": [
+     295,
+     400,
+     406,
+     436,
+     667,
+     700,
+     712,
+     721,
+     775,
+     796,
+     856,
+     1015,
+     1051,
+     1147
+    ]
+   },
+   {
+    "word": "PAGP",
+    "occurrences": [
+     623,
+     692,
+     842
+    ]
+   },
+   {
+    "word": "GLPG",
+    "occurrences": [
+     253,
+     259,
+     304,
+     532,
+     643,
+     736,
+     961,
+     973,
+     1156
+    ]
+   },
+   {
+    "word": "GERG",
+    "occurrences": [
+     595,
+     628,
+     676,
+     682,
+     730,
+     967
+    ]
+   },
+   {
+    "word": "GSPG",
+    "occurrences": [
+     289,
+     520,
+     541,
+     754,
+     934,
+     1021,
+     1027,
+     1123
+    ]
+   },
+   {
+    "word": "GPRG",
+    "occurrences": [
+     117,
+     184,
+     358,
+     907,
+     1090
+    ]
+   },
+   {
+    "word": "GEPG",
+    "occurrences": [
+     448,
+     472,
+     589,
+     826,
+     979
+    ]
+   },
+   {
+    "word": "GAKG",
+    "occurrences": [
+     274,
+     349,
+     394,
+     706,
+     832
+    ]
+   },
+   {
+    "word": "GARG",
+    "occurrences": [
+     412,
+     571,
+     862
+    ]
+   },
+   {
+    "word": "GPKG",
+    "occurrences": [
+     111,
+     583,
+     748
+    ]
+   },
+   {
+    "word": "GPQG",
+    "occurrences": [
+     196,
+     364,
+     418,
+     949
+    ]
+   },
+   {
+    "word": "GRPG",
+    "occurrences": [
+     238,
+     310,
+     526
+    ]
+   },
+   {
+    "word": "GDRG",
+    "occurrences": [
+     742,
+     1033,
+     1063,
+     1102
+    ]
+   },
+   {
+    "word": "FPGA",
+    "occurrences": [
+     344,
+     494,
+     875
+    ]
+   },
+   {
+    "word": "PSGA",
+    "occurrences": [
+     671,
+     986,
+     1130
+    ]
+   }
+  ]
+ },
+ "SUP35": {
+  "lcr": [
+   {
+    "start": 1,
+    "end": 114,
+    "sequence": "SDSNQGNNQQNYQQYSQNGNQQQGNNRYQGYQAYNAQAQPAGGYYQNYQGYSGYQQGGYQQYNPDAGYQQQYNPQGGYQQYNPQGGYQQQFNPQGGRGNYKNFNYNNNLQGYQ",
+    "entropy": 2.830736241178053
+   },
+   {
+    "start": 129,
+    "end": 146,
+    "sequence": "QKQQKQAAPKPKKTLKL",
+    "entropy": 2.351593723348755
+   },
+   {
+    "start": 163,
+    "end": 209,
+    "sequence": "KPAESDKKEEEKSAETKEPTKEPTKVEEPVKKEEKPVQTEEKTEEK",
+    "entropy": 2.6192776648870404
+   },
+   {
+    "start": 240,
+    "end": 253,
+    "sequence": "EQEEEVDDEVVND",
+    "entropy": 2.0758692966977272
+   },
+   {
+    "start": 393,
+    "end": 410,
+    "sequence": "KTQGVNKMVVVVNKMDD",
+    "entropy": 2.771902372038558
+   }
+  ],
+  "tandem": [
+   {
+    "start": 4,
+    "end": 12,
+    "period": 4,
+    "unit": "NQGN",
+    "identity": 0.875,
+    "sequence": "NQGNNQQN"
+   },
+   {
+    "start": 70,
+    "end": 90,
+    "period": 9,
+    "unit": "QQYNPQGGY",
+    "identity": 1.0,
+    "sequence": "QQYNPQGGYQQYNPQGGYQQ"
+   },
+   {
+    "start": 178,
+    "end": 188,
+    "period": 4,
+    "unit": "TKEP",
+    "identity": 1.0,
+    "sequence": "TKEPTKEPTK"
+   },
+   {
+    "start": 201,
+    "end": 211,
+    "period": 4,
+    "unit": "TEEK",
+    "identity": 0.9,
+    "sequence": "TEEKTEEKSE"
+   }
+  ],
+  "fourier_verified": [
+   {
+    "start": 70,
+    "end": 90,
+    "period": 9,
+    "unit": "QQYNPQGGY",
+    "identity": 1.0,
+    "sequence": "QQYNPQGGYQQYNPQGGYQQ"
+   },
+   {
+    "start": 178,
+    "end": 188,
+    "period": 4,
+    "unit": "TKEP",
+    "identity": 1.0,
+    "sequence": "TKEPTKEPTK"
+   }
+  ],
+  "fourier_regions": [],
+  "self_alignment": [],
+  "words": [
+   {
+    "word": "GYQQ",
+    "occurrences": [
+     53,
+     58,
+     67,
+     77,
+     86
+    ]
+   },
+   {
+    "word": "NPQG",
+    "occurrences": [
+     73,
+     82,
+     92
+    ]
+   }
+  ]
+ }
+}

@@ -1,36 +1,80 @@
-## Amino Acid Repeats: Analysis & Detection
+# Amino Acid Repeats: Analysis & Implications
 
-This repository contains the presentation slides and Python scripts related to the analysis and detection of Amino Acid Repeats (AARs) in protein sequences. The project explores various computational methodologies for identifying these repeats and discusses their biological significance and implications.
+Detection and analysis of amino acid repeats (AARs) in protein sequences. The project contains a
+tested Python package, a LaTeX report and a LaTeX (Beamer) presentation. Every figure and number in
+the report and slides is regenerated from code.
 
----
+| Deliverable | Source | Output |
+| --- | --- | --- |
+| Report (14 pages) | [`report/report.tex`](report/report.tex) | [`report/report.pdf`](report/report.pdf) |
+| Presentation (16:9) | [`Presentation/slides.tex`](Presentation/slides.tex) | [`Presentation/slides.pdf`](Presentation/slides.pdf) |
+| Python package | [`src/aarepeats/`](src/aarepeats) | `pip install -e .` |
 
-### Features & Methodologies
+## Methods
 
-The Python scripts in this repository implement different strategies for detecting amino acid repeats, as discussed in the accompanying presentation:
+| Module | Strategy | Finds |
+| --- | --- | --- |
+| `aarepeats.entropy` | Sliding-window Shannon entropy with SEG trigger/extension thresholds | Homopolymers, low-complexity regions |
+| `aarepeats.tandem` | Shifted self-match `s[i] == s[i+p]` with consensus-aware gap bridging | Exact/near-exact tandem units, copy number |
+| `aarepeats.fourier` | Local periodicity score `E_p` (fraction of variance at harmonics of `1/p`), indicator encoding | Periodic patterns, incl. those without identical units (collagen Gly-X-Y) |
+| `aarepeats.alignment` | Vectorised Smith–Waterman self-alignment, Waterman–Eggert declumping, LCR masking, shuffle z-scores | Diverged tandem and distributed repeats |
+| `aarepeats.exact` | Apriori-style repeated-word growth, exact or BLOSUM62-approximate, greedy tiling | Dispersed repeated motifs |
 
-* **Self-Comparison Alignment**: Utilizes sequence alignment techniques to identify direct and inverted repeats within a protein sequence.
-* **Fourier Transform Pattern Recognition**: Applies Fourier analysis to transform protein sequences into a frequency domain, allowing for the detection of periodic patterns indicative of repeats.
-* **Complexity Measurement Approaches (Shannon Entropy)**: Quantifies the complexity of protein regions using metrics like Shannon entropy to identify Low Complexity Regions (LCRs), which often correspond to repeat sequences.
-* **General Repeat Detection**: A core script that likely integrates or orchestrates different repeat detection methods, including options for both exact and approximate matching using substitution matrices like BLOSUM62.
+## Quick start
 
----
+```bash
+make install            # creates .venv and installs the package with dev extras
+make test               # 21 unit tests
 
-### Files Included
+.venv/bin/aarepeats data/P10275.fasta                 # all methods, text output
+.venv/bin/aarepeats MAMAMAMAPRTEINQQQQQQQQ -m tandem   # raw sequence, one method
+.venv/bin/aarepeats toy --json                         # built-in example, JSON
+```
 
-* **`slides.pdf`**: The main presentation slides, providing an overview of amino acid repeats, their classification, detection strategies, and functional implications.
-* **`fourier transform.ipynb`**: Python script for detecting repeats using Fourier transform.
-* **`self alignment.ipynb`**: Python script for repeat detection via self-comparison alignment.
-* **`shannon entropy.ipynb`**: Python script for identifying low complexity regions using Shannon entropy.
-* **`repeat detector.py`**: A general-purpose Python script for finding amino acid repeats, potentially incorporating exact and approximate matching algorithms.
+```python
+from aarepeats import read_fasta, detect_lcr, find_tandem_repeats, periodic_regions
 
----
+_, seq = read_fasta("data/P42858.fasta")[0]          # huntingtin
+for r in find_tandem_repeats(seq, min_length=8, max_gap=1):
+    print(r.start + 1, r.end, r.unit, r.copies)       # 18 38 Q 21.0 / 39 49 P 11.0 ...
+```
 
-### Usage
+## Reproducing the report and slides
 
-To use the Python scripts, you will need a Python environment with common scientific libraries (e.g., NumPy, Matplotlib) and Biopython for sequence alignment matrices. Each Python file typically contains example usage within the script, demonstrating how to apply the detection methods to a `test_sequence`.
+```bash
+make figures     # report/figures/*.pdf, report/generated/*.tex, results/results.json
+make report      # report/report.pdf  (pdflatex + biber)
+make slides      # Presentation/slides.pdf (metropolis theme)
+make notebooks   # re-execute the tutorial notebooks
+```
 
----
+Requires Python ≥ 3.10 and a TeX Live distribution with `biber`, `metropolis` and `fira`.
 
-### Author
+## Repository layout
 
-Ali Ahmadi Esfidi
+```text
+src/aarepeats/      package: entropy, tandem, fourier, alignment, exact, plotting, cli
+tests/              unit tests (known-answer cases for every detector)
+data/               UniProtKB sequences: HTT P42858, AR P10275, COL1A1 P02452, SUP35 P05453
+scripts/            make_figures.py (all report artefacts), build_notebooks.py
+notebooks/          executed tutorials, one per method
+animations/         animate_repeats.py: MP4/GIF of greedy repeat tiling
+report/             LaTeX report, bibliography, generated figures/tables
+Presentation/       LaTeX Beamer slides
+results/            machine-readable results for the four proteins
+```
+
+## Key results
+
+* **Huntingtin**: Q₂₁ (residues 18–38) followed by P₁₁ (39–49), reported as two separate tracts.
+* **Androgen receptor**: Q₂₃ (58–80) and G₂₃ (451–473), the two deepest entropy minima.
+* **Collagen α1(I)**: a single period-3 spectral peak about 100× the mean power, localised to residues 187–1183. Only Fourier analysis reveals this pattern.
+* **Sup35**: diverged oligopeptide repeats recovered by self-alignment (z ≈ 6.5).
+* **Low-complexity masking matters**: unmasked, the AR polyQ/polyP/polyG tracts chain into one spurious 430-residue "repeat".
+
+See the report's appendix for the defects fixed relative to the original prototype (int64 rolling-hash
+overflow, a mislabelled polarity scale, redundant alignments, among others).
+
+## Author
+
+Ali Ahmadi Esfidi, Feb, 2025

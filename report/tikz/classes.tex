@@ -1,0 +1,30 @@
+% Classes of amino acid repeats (shared by report and slides).
+% Requires colours accent, accent2, accent3, inkmuted and xcolor's dvipsnames.
+\begin{tikzpicture}[
+  font=\sffamily\small,
+  unit/.style={draw=white, line width=0.8pt, minimum height=0.42cm, inner sep=0pt, rounded corners=1pt},
+  lab/.style={anchor=east, text width=3.3cm, align=right, font=\sffamily\footnotesize},
+  note/.style={anchor=west, font=\ttfamily\scriptsize, text=inkmuted}]
+  \def\row#1{-0.75*#1}
+  % perfect tandem
+  \node[lab] at (-0.2,{\row0}) {Perfect tandem};
+  \foreach \i in {0,...,5} \node[unit, fill=accent, minimum width=0.6cm, anchor=west] at (0.6*\i,{\row0}) {};
+  \node[note] at (3.9,{\row0}) {MAMAMAMAMAMA};
+  % imperfect tandem
+  \node[lab] at (-0.2,{\row1}) {Imperfect tandem};
+  \foreach \i/\c in {0/accent,1/accent!65,2/accent,3/accent!45,4/accent} \node[unit, fill=\c, minimum width=0.72cm, anchor=west] at (0.72*\i,{\row1}) {};
+  \node[note] at (3.9,{\row1}) {PQGGYQQYN PQGGYQQQFN \dots};
+  % homopolymer
+  \node[lab] at (-0.2,{\row2}) {Homopolymer run};
+  \node[unit, fill=accent2, minimum width=3.0cm, anchor=west] at (0,{\row2}) {};
+  \node[note] at (3.9,{\row2}) {QQQQQQQQQQQQQQQQQQQQQ};
+  % dispersed
+  \node[lab] at (-0.2,{\row3}) {Distributed};
+  \draw[inkmuted!60, line width=1.2pt] (0,{\row3}) -- (3.6,{\row3});
+  \foreach \x in {0.2,1.7,3.0} \node[unit, fill=accent3, minimum width=0.55cm, anchor=west] at (\x,{\row3}) {};
+  \node[note] at (3.9,{\row3}) {..ACDEFGHIK....ACDEFGHIK..};
+  % domain
+  \node[lab] at (-0.2,{\row4}) {Domain repeat};
+  \foreach \i in {0,1,2} \node[unit, fill=Goldenrod, minimum width=1.15cm, anchor=west] at (1.2*\i,{\row4}) {};
+  \node[note] at (3.9,{\row4}) {e.g.\ HEAT, ankyrin (20--40 aa units)};
+\end{tikzpicture}
